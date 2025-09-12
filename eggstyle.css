@@ -1,0 +1,760 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c9a998;
+}
+
+.topbanner {
+    display:flex;
+}
+
+.bannerbg {
+    height: 11.8vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #C9A998;
+}
+
+.bannerlinks {
+    display:inline-flex;
+    gap: 1.8vw;
+    color: #ffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1vw;
+    position: absolute;
+    top: 4.7vh;
+    left: 6.2vw; 
+    z-index: 10;
+
+}
+
+.homel {
+    transition: 0.2s ease-in-out;
+}
+
+.homel:hover {
+    color:#ffee00;
+    transition: 0.3s ease-out;
+    transform:  scale(1.2); 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menul {
+    transition: 0.2s ease-in-out;
+}
+
+.menul:hover {
+    color:#ffee00;
+    transition: 0.3s ease-out;
+    transform:  scale(1.2); 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.aboutl {
+    transition: 0.2s ease-in-out;
+}
+
+.aboutl:hover {
+    color:#ffee00;
+    transition: 0.3s ease-out;
+    transform:  scale(1.2); 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.contactl {
+    transition: 0.2s ease-in-out;
+}
+
+.contactl:hover {
+    color:#ffee00;
+    transition: 0.3s ease-out;
+    transform:  scale(1.2); 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.logo img {
+    margin: 0 auto;
+    position:absolute;
+    top: 3.3vh;
+    left: 45.7vw;
+    width: 8.6vw;
+    max-width: 100%;
+
+}
+
+.makereservation {
+    margin: 0 auto;
+    position: absolute;
+    top: 2.5vh;
+    left: 76vw;
+    border: 0.06rem solid #ffff;
+    padding: 1.5vh 2.5vw;
+    background-color: #C9A998;
+    border-color: #ffff;
+    border-radius: 2rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffff;
+    letter-spacing: 0.33rem;
+    font-size: 1.15vw;
+    transition: 0.25s ease-in-out;
+    z-index: 10;
+    
+    
+}
+
+.makereservation:hover {
+    background-color: #ffffff;
+    color: #c8a997;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 2rem #c8a997;
+    z-index: 1;
+    
+}
+
+.void {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0); 
+    pointer-events: none;
+    z-index: 5;
+    
+}
+
+#bgslider {
+    overflow: hidden;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    filter: brightness(0.6);
+    z-index: -1;
+}
+
+
+.herotitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    
+}
+
+
+
+.ccehero {
+    
+    font-family: "Alex Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 auto;
+    position: absolute;     
+    top: 33.7vh;
+    left: 18.25vw;
+    color: #ffffff;
+    font-size: 11.5rem;
+   
+}
+
+.herosub {
+    margin: 0 auto;
+    position: relative;
+    top: 62vh;
+    left: 0w;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+
+.viewmenubtn {
+    position: relative;
+    top: 70vh;
+    left: 44vw;
+    color: #ffffff;
+    
+    font-size: 1.2rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 2vh;
+    background-color: #00f43100;
+    border: 0.04rem solid #ffffff;  
+    border-radius: 2rem;
+    width: 12vw;
+    display: inline-block;
+    transition: 0.25s ease-in-out;;
+}
+
+.viewmenubtn:hover {
+    background-color: #ffffff;
+    color: #c8a997;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 2rem #c8a997;
+}
+
+.background {
+    position: absolute;
+    top: 153vh;
+    left: 0;
+    width: 100vw;
+    height: 78vh;
+    background-color: #C9A998;
+    z-index: -1;
+}
+
+.abouttext {
+    background-color: #C9A998;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    
+}
+
+h4 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    position: relative;
+    padding: 22vh 0 0 0;
+}
+
+.aboutlargetext {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    margin: 5vh 20vw;
+    text-transform: uppercase;
+    
+}
+
+.aboutsubtext {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 3vh;
+     margin: 0 17.5vw;
+}
+
+.vline {
+
+    position: relative;
+    top: 33vh;
+    width: 6.75vw;
+    height: 0vh;
+    color: #ffffff;
+    background: #ffffff;
+    mix-blend-mode: screen;
+    
+    border: 0.05rem solid #ffffff;
+    background-color: #C9A998;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+
+    
+.menuheader {
+    color:#ffffff;
+    font-size: 6.2rem;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 40vh;
+}
+
+.menusubtext {
+    color:#ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 40vh;
+    padding: 0 20vw;
+   
+    line-height: 2rem;
+}
+
+.fullmenubtn {
+    text-align: center;
+    position: relative;
+    top: 42vh;
+    color: #ffffff;
+    
+    font-size: 1.2rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+    letter-spacing: 0.3rem;
+    padding: 2.2vh 2vw;;
+    background-color: #00f43100;
+    border: 0.04rem solid #ffffff;  
+    border-radius: 2rem;
+    width: 13vw;
+    
+    transition: 0.25s ease-in-out;;
+}
+
+.fullmenubtn:hover {
+    background-color: #ffffff;
+    color: #C9A998;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 0 2rem #C9A998;
+}
+
+
+.menuflex {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45vh;
+margin: 5vw 5vw;
+}
+
+.menuflex img {
+
+    width:18vw;
+}
+
+.eggprice {
+    font-size: 0.9rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.eggtitle {
+    font-size: 2.1rem;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    color:#ffffff;
+    font-weight: 400;
+}
+
+.devegg {
+border: 0.05rem solid #AA9387;
+background-color: #D1B5A6;
+padding: 2.3vw;
+transition: 0.3s ease-in-out;
+}
+
+.devegg:hover {
+    box-shadow: 0 0 2rem #AA9387;
+    background-color: #D1B5A6;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.scotchegg {
+border: 0.05rem solid #AA9387;
+background-color: #D1B5A6;
+padding: 2.3vw;
+transition: 0.3s ease-in-out;
+}
+
+.scotchegg:hover {
+    box-shadow: 0 0 2rem #AA9387;
+    background-color: #D1B5A6;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.shakegg {
+border: 0.05rem solid #AA9387;
+background-color: #D1B5A6;
+padding: 2.3vw;
+transition: 0.3s ease-in-out;
+}
+
+.shakegg:hover {
+    box-shadow: 0 0 2rem #AA9387;
+    background-color: #D1B5A6;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.fritegg {
+border: 0.05rem solid #AA9387;
+background-color: #D1B5A6;
+padding: 2.3vw;
+transition: 0.3s ease-in-out;
+}
+
+.fritegg:hover {
+    box-shadow: 0 0 2rem #AA9387;
+    background-color: #ccae9e;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.leftarrowmenu {
+     position: relative;
+    top: 25vh;
+    padding: 1vw;
+    font-size: 2rem;
+    transition: 0.3s ease-out; 
+}
+
+.leftarrowmenu:hover {
+    filter:brightness(1.3);
+    transition: 0.3s ease-out; 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.rightarrowmenu {
+    position: relative;
+    top: 25vh;
+    padding: 1vw;
+    font-size: 2rem;
+}
+
+.rightarrowmenu:hover {
+    filter:brightness(1.3);
+    transition: 0.3s ease-out; 
+    cursor: pointer;
+    z-index: 1;
+}
+
+.vline2 {
+
+    position: relative;
+    top: 62vh;
+    width: 6.75vw;
+    height: 0vh;
+    color: #ffffff;
+    background: #ffffff;
+    mix-blend-mode: screen;
+    
+    border: 0.05rem solid #ffffff;
+    background-color: #C9A998;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+.backgroundlocation {
+    position:absolute;
+    top: 375vh;
+    height: 200vh;
+    width: 1000vw;
+    background-color: #C9A998;
+
+}
+
+.locationtitle {
+    color:#ffffff;
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    position: relative;
+    top: 70vh;
+   
+}
+
+.locationsubtext {
+    color:#ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 68vh;
+    padding: 0 20vw;
+   
+    line-height: 2rem;
+}
+
+/* Responsive Design Media Queries */
+
+/* Tablet Styles (768px to 1024px) */
+@media (max-width: 1024px) {
+    .bannerlinks {
+        gap: 2vw;
+        font-size: 1.2vw;
+        left: 5vw;
+    }
+
+    .logo img {
+        width: 10vw;
+        left: 42vw;
+    }
+
+    .makereservation {
+        left: 72vw;
+        font-size: 1.3vw;
+        padding: 1.5vh 3vw;
+    }
+
+    .ccehero {
+        font-size: 9rem;
+        left: 15vw;
+    }
+
+    .herosub {
+        font-size: 1.2rem;
+        top: 60vh;
+    }
+
+    .viewmenubtn {
+        top: 68vh;
+        left: 42vw;
+        width: 14vw;
+        font-size: 1.3rem;
+    }
+
+    .aboutlargetext {
+        font-size: 2.5rem;
+        line-height: 3rem;
+        margin: 5vh 15vw;
+    }
+
+    .aboutsubtext {
+        font-size: 1.2rem;
+        margin: 0 15vw;
+    }
+
+    .menuheader {
+        font-size: 5rem;
+    }
+
+    .menusubtext {
+        font-size: 1.2rem;
+        padding: 0 15vw;
+    }
+
+    .fullmenubtn {
+        width: 15vw;
+        font-size: 1.3rem;
+    }
+
+    .menuflex img {
+        width: 20vw;
+    }
+
+    .eggtitle {
+        font-size: 1.8rem;
+    }
+
+    .eggprice {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Styles (up to 768px) */
+@media (max-width: 768px) {
+    .topbanner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bannerbg {
+        height: 15vh;
+    }
+
+.logo img {
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        top: 2vh;
+        width: 25vw;
+        margin: 2vh 0;
+        justify-content: center;
+    }
+
+    .bannerlinks {
+        position: static;
+        display: flex;
+        gap: 5vw;
+        font-size: 3vw;
+        margin-top: 2vh;
+        justify-content: center;
+    }
+
+    
+
+    .makereservation {
+        position: static;
+        margin: 2vh auto;
+        font-size: 3vw;
+        padding: 2vh 5vw;
+        width: auto;
+    }
+
+    .ccehero {
+        font-size: 17vw;
+        left: 5vw;
+        top: 50vh;
+    }
+
+    .herosub {
+        font-size: 1rem;
+        top: 70vh;
+        padding: 0 10vw;
+    }
+
+    .viewmenubtn {
+        top: 75vh;
+        left: 35vw;
+        width: 30vw;
+        font-size: 1rem;
+        padding: 2vh 3vw;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+        padding: 15vh 0 0 0;
+    }
+
+    .aboutlargetext {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin: 5vh 10vw;
+    }
+
+    .aboutsubtext {
+        font-size: 1rem;
+        margin: 0 10vw;
+    }
+
+    .vline {
+        display: none; /* Hide vertical line on mobile */
+    }
+
+    .menuheader {
+        font-size: 3rem;
+        top: 35vh;
+    }
+
+    .menusubtext {
+        font-size: 1rem;
+        top: 35vh;
+        padding: 0 10vw;
+    }
+
+    .fullmenubtn {
+        top: 40vh;
+        width: 40vw;
+        font-size: 1rem;
+        padding: 2vh 4vw;
+    }
+
+    .menuflex {
+        flex-direction: column;
+        align-items: center;
+        top: 45vh;
+        margin: 5vw;
+    }
+
+    .menuflex img {
+        width: 40vw;
+        margin-bottom: 5vh;
+    }
+
+    .eggtitle {
+        font-size: 1.5rem;
+    }
+
+    .eggprice {
+        font-size: 0.9rem;
+    }
+
+    .devegg, .scotchegg, .shakegg, .fritegg {
+        padding: 5vw;
+    }
+}
+
+/* Small Mobile Styles (up to 480px) */
+@media (max-width: 480px) {
+    .ccehero {
+        font-size: 3rem;
+        left: 5vw;
+    }
+
+    .herosub {
+        font-size: 0.9rem;
+        top: 50vh;
+    }
+
+    .viewmenubtn {
+        top: 60vh;
+        left: 30vw;
+        width: 40vw;
+    }
+
+    .aboutlargetext {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+        margin: 5vh 5vw;
+    }
+
+    .aboutsubtext {
+        font-size: 0.9rem;
+        margin: 0 5vw;
+    }
+
+    .menuheader {
+        font-size: 2.5rem;
+    }
+
+    .menusubtext {
+        font-size: 0.9rem;
+        padding: 0 5vw;
+    }
+
+    .fullmenubtn {
+        width: 50vw;
+    }
+
+    .menuflex img {
+        width: 50vw;
+    }
+
+    .bannerlinks {
+        gap: 3vw;
+        font-size: 3.5vw;
+    }
+
+    .makereservation {
+        font-size: 3.5vw;
+    }
+}
